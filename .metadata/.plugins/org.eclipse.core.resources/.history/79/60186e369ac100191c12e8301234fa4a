@@ -1,0 +1,20 @@
+package com.mymicro.service;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class ServiceController {
+	@RequestMapping(value = "/service2/control/{id}",method = RequestMethod.GET)
+	public Map<String,Object> getInfo(@PathVariable("id") Long id){
+		System.out.println("服务:service2，请求过来了。。。参数:"+id);
+		Map<String,Object> resMap = new HashMap<>();
+		resMap.put("res","ook");
+		return resMap;
+	}
+}

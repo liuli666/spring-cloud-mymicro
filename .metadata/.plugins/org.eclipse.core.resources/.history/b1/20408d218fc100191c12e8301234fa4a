@@ -1,0 +1,5 @@
+package com.mymicro;
+
+public class MyMicroService1Config {
+
+}

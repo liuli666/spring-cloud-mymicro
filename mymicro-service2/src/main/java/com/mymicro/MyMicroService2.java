@@ -1,0 +1,27 @@
+package com.mymicro;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+import org.springframework.context.annotation.Bean;
+import org.springframework.web.client.RestTemplate;
+
+@SpringBootApplication
+@EnableEurekaClient
+public class MyMicroService2 {
+	public static void main(String[] args) {
+		SpringApplication.run(MyMicroService2.class, args);
+
+	}
+
+	/**
+	 * RestTemplate 复制rest接口的调用
+	 * 是一种简单便捷的访问restfulll服务的模板类，是spring提供的用于访问rest服务的客户端模板工具集
+	 * 
+	 * @return
+	 */
+	@Bean
+	RestTemplate getRestTemplate() {
+		return new RestTemplate();
+	}
+}

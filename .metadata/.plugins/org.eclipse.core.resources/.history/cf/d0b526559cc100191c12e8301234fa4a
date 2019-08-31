@@ -1,0 +1,9 @@
+# 服务的端口
+server.port=8761
+spring.application.name=mymicro-eureka
+eureka.instance.hostname=localhost
+eureka.client.register-with-eureka=false
+eureka.client.fetch-registry=false
+eureka.client.serviceUrl.defaultZone=http://${eureka.instance.hostname}:${server.port}/eureka/
+eureka.server.enable-self-preservation=false
+eureka.server.eviction-interval-timer-in-ms=4000

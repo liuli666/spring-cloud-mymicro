@@ -1,0 +1,6 @@
+INDEX VERSION 1.131+E:\ѧϰ\springclound\.metadata\.plugins\org.eclipse.jdt.core
+420865009.index
+1846727527.index
+4145775325.index
+3231070659.index
+1503619193.index

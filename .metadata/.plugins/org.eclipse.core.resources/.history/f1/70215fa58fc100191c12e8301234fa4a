@@ -1,0 +1,16 @@
+package com.mymicro;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+
+import com.finance.invoce.InvoiceAssemblyApplication;
+
+@SpringBootApplication
+@EnableEurekaClient
+public class MyMicroService1Config {
+	public static void main(String[] args) {
+		SpringApplication.run(MyMicroService1Config.class, args);
+		
+	}
+}

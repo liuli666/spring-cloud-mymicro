@@ -1,0 +1,16 @@
+package com.mymicro.service;
+
+import java.util.Map;
+
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class ServiceController {
+	@RequestMapping(value = "/service/control/{id}",method = RequestMethod.GET)
+	public Map<String,Object> getInfo(@PathVariable("id") Long id){
+		
+	}
+}

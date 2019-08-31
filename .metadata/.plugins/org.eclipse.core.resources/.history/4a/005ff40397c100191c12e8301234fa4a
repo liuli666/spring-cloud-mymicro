@@ -1,0 +1,12 @@
+package com.mymicro.controller;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class MyMicroController {
+	@RequestMapping(value = "/service1/controlelr/getinfo")
+	public String getMyInfo() {
+		
+	}
+}

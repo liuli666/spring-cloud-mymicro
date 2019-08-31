@@ -1,0 +1,5 @@
+package com.mymicro.service;
+
+public class ServiceController {
+
+}
