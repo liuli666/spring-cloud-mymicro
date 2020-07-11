@@ -1,6 +1,6 @@
-1.Eureka注册中心对应的集群工程为
-  1.1 mymicro-eureka7001、mymicro-eureka7002、mymicro-eureka7003
-  1.2 需要配置的本地host为
+##1.Eureka注册中心对应的集群工程为
+  #1.1 mymicro-eureka7001、mymicro-eureka7002、mymicro-eureka7003
+  #1.2 需要配置的本地host为
 		127.0.0.1 eureka7001.com
 		127.0.0.1 eureka7002.com
 		127.0.0.1 eureka7003.com
